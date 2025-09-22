@@ -1,0 +1,52 @@
+
+@import url("reset.css");
+
+#top {
+	color: rgb(181, 181, 224);
+}
+.item .link {
+    color: rgb(235, 110, 110);
+}
+.item.link-1 {
+    color: blue;
+}
+.list-top > li {
+	color: blueviolet;
+}
+[class*="me"] {
+	color: brown;	
+}
+div .main-text{
+	color: rgb(43, 255, 0);
+}
+.article__sub-title {
+	color: rgb(185, 135, 231);
+}
+div, .article__sub-title-2, .text_2 {
+	color: rgb(108, 108, 5);
+}
+
+.text-more span {
+	color: rgb(255, 0, 115);
+}
+
+.block-oho * {
+	color: rgb(238, 146, 8);
+}
+
+.title-rasha + p {
+	color: rgb(4, 175, 243);
+}
+.block-end ~ p {
+	color: rgb(225, 131, 16);
+}
+
+.link-main {
+	color: brown;
+}
+h3 {
+	color: rgb(221, 2, 2);
+}
+.link-footer {
+	color: rgb(41, 11, 236);
+}

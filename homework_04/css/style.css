@@ -37,6 +37,7 @@ text-decoration-color: blue;
 	text-decoration: line-through;
 	text-decoration-color: brown;
 	
+	
 
 	
 }
@@ -69,6 +70,5 @@ a {
 	font-family: Demo, serif;
 	font-size: 60px;
 	color: brown;
-	white-space: nowrap;
 
 }

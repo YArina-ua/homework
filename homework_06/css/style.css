@@ -32,7 +32,7 @@ body {
   padding-bottom: 110px;
   min-height: 612px;
   color: #2f302c;
-  background: #d4d4d4 url(/img/test.jpg) center / cover no-repeat;
+  background: #d4d4d4 url(../img/test.jpg) center / cover no-repeat;
   margin-bottom: 30px;
 }
 .block__content {
@@ -77,13 +77,13 @@ h3 {
 .block-2__card-green,
 .block-2__card-grey {
   padding-left: 45px;
-  background: url(/img/check.svg) 0 0 no-repeat;
+  background: url(../img/check.svg) 0 0 no-repeat;
   margin-bottom: 10px;
   min-height: 32px;
   line-height: 2.2;
 }
 .block-2__card-grey {
-  background: url(/img/check-grey.svg) 0 0 no-repeat;
+  background: url(../img/check-grey.svg) 0 0 no-repeat;
 }
 
 .img {

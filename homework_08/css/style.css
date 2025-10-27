@@ -1,0 +1,73 @@
+@import url("reset.css");
+@import url("fonts.css");
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 500;
+  background-color: #eddfdf;
+}
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header-text {
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: rgb(251, 246, 246);
+  background-color: rgb(208, 100, 28);
+}
+.logo {
+  padding: 20px 30px;
+}
+.logo-img:hover {
+  background-color: rgb(213, 175, 118);
+}
+.logo-text {
+  margin: 0 30px;
+}
+.content .img-icons {
+  padding: 20px;
+  color: rgb(239, 95, 5);
+  line-height: 1.25;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.icon-lotos {
+  margin-bottom: 20px;
+  background-image: url(../img/lotos-first.avif);
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+.icon-lotos-second {
+  padding: 30px 40px;
+  margin-bottom: 20px;
+  background-image: url(../img/lotos-second.webp);
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+.raster {
+  margin: 0 270px;
+  font-size: 19px;
+  color: rgb(168, 211, 40);
+}
+.img-icons picture {
+  margin-top: 50px;
+}
+.img-icons img {
+  border-radius: 33px;
+  box-shadow: 3px 4px 5px 6px pink;
+}
+body img:not(:last-child) {
+  box-shadow: 3px 4px 5px 6px rgb(31, 152, 4);
+}
+footer p {
+  padding-bottom: 30px;
+}
+footer:hover {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(225, 47, 76);
+}

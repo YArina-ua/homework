@@ -47,10 +47,14 @@ body {
     transform: translateX(-100%);
   }
 }
-@media (width<660px) {
+@media (width<700px) {
   .header__text {
-    padding: 8px;
+    padding: 10px;
     font-size: 15px;
+    color: #000000;
+  }
+  .header__block {
+    background-color: #d3ed52;
   }
 }
 .hero {
